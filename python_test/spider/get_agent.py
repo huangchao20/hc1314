@@ -1,3 +1,4 @@
+#coding=utf-8
 import os
 import xlrd
 
@@ -72,6 +73,7 @@ def getcwdfile( workspacepath ):
 *****function name: movfile
 *****input:dpath, flist
 *****output:xlsx文件、workspace目录
+*****output:xlsx文件、workspace目录
 """
 
 def movfile( dpath, flist ):
@@ -104,6 +106,7 @@ def readxlrd( filename ):
 	#os.chdir("F:\\TFS\\特色业务平台\\文档&DB&AFEjar包\\2018常规\\20180712\\TR-2018-233" )
 	s = "服务器路径"
 	workbook = xlrd.open_workbook( filename )
+	"""workbook = xlrd.open_workbook( filename )"""
 	sheets = workbook.sheet_names()
 	worksheet = workbook.sheet_by_name( sheets[0] )
 	t = 0
