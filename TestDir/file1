@@ -1,4 +1,16 @@
+#coding=utf-8
+
+"""
 if name == 1:
     print('OK')
 else:
     print('Not OK')
+"""
+
+i = 0
+while True:
+   i += 2 
+   if i >= 5000:
+       break
+
+print(i)
