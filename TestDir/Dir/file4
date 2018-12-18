@@ -1,0 +1,27 @@
+[gerrit]
+basePath = git #默认gerrit对应的git库
+canonicalWebUrl = http://192.168.199.112:8081/ #gerrit web管理界面
+[database]
+type = h2 #h2数据库
+database = db/ReviewDB #数据库路径
+[index]
+type = LUCENE
+[auth]
+type = HTTP #auth模式，默认为OPENID，配置为HTTP，需要apache配置反向代理
+[receive]
+enableSignedPush = false
+[sendemail]
+　　　　 enable=false #关闭邮件提醒
+[container]
+user = gerrit #linux user for gerrit
+javaHome = /opt/jdk1.7.0_79/jre #java home
+[sshd]
+listenAddress = *:29418 #default gerrit port
+[httpd]
+listenUrl = http://*:8081/
+[cache]
+directory = cache
+[http]
+proxy = http://192.168.199.112:8080 #proxy server
+proxyUsername = gerrit1 #proxy user & password
+proxyPassword = 123456
