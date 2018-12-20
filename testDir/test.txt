@@ -10,14 +10,6 @@ while True:
 def func(name):
 	print("请检查姓名是否正确[%s]" % name )
 
-class Person(object):
-	def __init__(self, name):
-		super(Person, self).__init__()
-		self.name = name
-	
-	def printname( self.name):
-		print(self.name)
-
 if __name__ == "__mian__":
     name = "赵四儿"
 	func(name)
