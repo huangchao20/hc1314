@@ -2,3 +2,7 @@
 wwwwwwwwwwwwwwwwwwwww
 nnnnnnnnnnnnnnnnnnnnn
 NNNNNNNNNNNNNNNNNNNNN
+a  == 3
+while True:
+    if a >= 3:
+	    a = -a
