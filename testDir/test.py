@@ -11,3 +11,8 @@ def printt():
 if __name__ == "__main__":
     printinfo()
     printt()
+print("root user")
+if __name__ == "__main__":
+    printinfo()
+
+print("root user")
