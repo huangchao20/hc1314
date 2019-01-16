@@ -31,3 +31,37 @@ class Person(object):
 if __name__ == "__mian__":
     name = "赵四儿"
 	func(name)
+class Person(object):
+	'''
+	1111111111111111111
+	wwwwwwwwwwwwwwwwwwwww
+	nnnnnnnnnnnnnnnnnnnnn
+	NNNNNNNNNNNNNNNNNNNNN
+	'''
+	def __init__(self, name):
+		super(Person, self).__init__()
+		self.name = name
+	
+	def printname( self.name):
+		print(self.name)
+
+if __name__ == "__mian__":
+    name = "赵四儿"
+	func(name)
+class Person(object):
+	'''
+	1111111111111111111
+	wwwwwwwwwwwwwwwwwwwww
+	nnnnnnnnnnnnnnnnnnnnn
+	NNNNNNNNNNNNNNNNNNNNN
+	'''
+	def __init__(self, name):
+		super(Person, self).__init__()
+		self.name = name
+	
+	def printname( self.name):
+		print(self.name)
+
+if __name__ == "__mian__":
+    name = "赵四儿"
+	func(name)
