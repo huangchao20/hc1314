@@ -10,6 +10,7 @@ a  == 3
 while True:
     if a >= 3:
 	    a = -a
+def func(name):
 
 def func(name):
 	print("请检查姓名是否正确[%s]" % name )
